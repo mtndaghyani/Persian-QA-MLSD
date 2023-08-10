@@ -1,3 +1,4 @@
+from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 from model import AnswerPredictor
 
 MODEL_PATH = "/content/drive/MyDrive/project/"
