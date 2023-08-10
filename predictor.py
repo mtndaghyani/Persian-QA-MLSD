@@ -1,9 +1,8 @@
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer
 from model import AnswerPredictor
 
-# Initialize models
 
-MODEL_PATH = "/content/drive/MyDrive/project/"
+MODEL_PATH = "./trained_models"
 model = AutoModelForQuestionAnswering.from_pretrained(MODEL_PATH)
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 
